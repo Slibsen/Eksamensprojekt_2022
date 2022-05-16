@@ -1,0 +1,1 @@
+var graph = {"Produkt": [{"ID": 2017043, "Name": "CARAMBA RENSESPRAY", "Kat_ID": 4340, "Eco_ID": 2, "Enhedstype": 24.95, "Leveringsdato": null}]};
