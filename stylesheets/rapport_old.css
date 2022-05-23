@@ -1,3 +1,35 @@
+
+/*
+--------Classes and ID's
+################################
+--HEADER
+.topnav
+.active
+################################
+################################
+--MAIN
+.sidenav
+.rapport
+.afsnit
+.afsnit_header
+.afsnit_subheader
+
+#indledning
+#problem
+#metode
+#research
+#analyse
+#konstruktion
+#evaluering
+#konklusion
+#referencer
+
+################################
+
+.topnav
+
+--------Unueds ID's
+*/ 
 body{
 	height: 100%;
 	width: 100%;
@@ -5,17 +37,6 @@ body{
 }
 header{
     height: 2em;
-}
-
-.container{
-    display: grid;
-    justify-items: center;
-    width: 80%;
-    height: 100%;
-    margin: auto;
-    padding: 50px 1px;
-    background-color: rgb(226, 226, 218);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .topnav{
     list-style: none;
@@ -27,12 +48,13 @@ header{
     left: 0;
     width: 100%;
     background-color: rgb(14, 12, 12);
+
 }
 
-.topnav li a{
+ul li a{
     float: left;
     color: rgb(212, 205, 205);
-    margin-left: 18.5%;
+    margin-left: 18,5%;
     padding: 1% 2%;
     font-size: 17px;
     font-weight: 500;
@@ -40,32 +62,40 @@ header{
     text-decoration: none;
     text-align: center;
 }
-.topnav .active{
+.active{
     text-decoration:underline;
-    background-color: rgb(54, 54, 54);
+   /* background-color: rgb(54, 54, 54)*/
 }
-.topnav li a:hover:not(.active) {
+
+ul li a:hover:not(.active) {
     background-color: rgb(36, 33, 33);
+}
+.rapport{
+display: grid;
+justify-items: center;
+text-align: center;
+width: 80%;
+height: 100%;
+margin-top: 5%;
+padding: 50px 1px;
+background-color: rgb(226, 226, 218);
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .sidenav{
-    list-style-type: none;
-    position: absolute;
-    overflow:hidden;
-    margin: 0;
+    position: fixed;
     margin-top:2em;
-    padding: 0;
-    width: 10%;
-    height: 100%;
+    margin-left: 0;
+    width: 20%;
 }
-.sidenav li a{
-    display: block;
+.sidenav a{
     background-color: rgb(14, 12, 12);
     border-bottom: 1px solid rgb(226, 226, 218);
     color: white;
+    display: block;
     padding: 1em;
     text-decoration: none;
-    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .sidenav a:hover{
     background-color: gray;
@@ -73,10 +103,6 @@ header{
 .sidenav a:active{
     background-color: gray;
     text-decoration: underline;
-}
-
-.sidenav li:last-child {
-    border-bottom:none;
 }
 .rapport{
     display: grid;
@@ -89,9 +115,6 @@ header{
     font-size: 20px;
 }
 
-#maincontent{
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 5%;
-    font-size: 17px;
+.lorem{
+    font-size: 40px !important;
 }
