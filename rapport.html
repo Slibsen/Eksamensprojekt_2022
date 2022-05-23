@@ -32,21 +32,21 @@
                     <h4>Rapportsiden</h4>
 
                     <article class="afsnit" id="indledning">
-                        <h3 class="=afsnit_header">-----Indledning-----</h3>
+                        <h2 class="=afsnit_header">Indledning</h2>
                         <p>
 
                         </p>
                     </article>
                     
                     <article class="afsnit" id="problemformulering">
-                        <h3 class="=afsnit_header">-----Problemformulering-----</h3>
+                        <h2 class="=afsnit_header">Problemformulering</h2>
                         <p>
                             Vi har fået til opgave af EG A/S, at komme med forslag til en 
-                            optimering af en mobil-app. Dette er mest med hovedfokus på, hvordan
+                            optimering af en mobil-app. </br>
+                            Dette er mest med hovedfokus på, hvordan
                             man kan få lavet en optimal database, som bl.a. gør at man på en smart
                             måde, kan finde erstatningsvarer, lagerstatus, og lokationer.
-                        </p>
-                        </article>
+                        </br></br>
                             Vi har derfor skulle finde en måde hvorpå man nemt kan finde varer i 
                             diverse varehuse - Dette viste sig også at være den sværeste del af
                             opgaven.
@@ -54,49 +54,96 @@
                     </article>
 
                     <article class="afsnit" id="metodeovervejelser">
-                        <h3 class="=afsnit_header">-----Metodeovervejelser-----</h3>
+                        <h2 class="=afsnit_header">Metodeovervejelser</h2>
                         <p>
-                            
+                            Vi overvejede fra start af projektet, flere forskellige tekniske tilgange til problemstillingen.
+                            Af mulige løsninger overvejede følgende:
+                        </p>
+                        
+                        <h4>Hjemmeside med backend</h4>
+                        <p>
+                            Hvis løsningen laves i html, med Javascript og enten Python eller C# backend, ville det have været imod kundens ønsker, da der specifikt blev ønsket en App.</br>
+                            Dog ville der have været kundeorienterede fordele i denne fremgangsmåde, da kunden ikke ville have behov for at skulle downloade endnu en app, 
+                            men i stedet kunne nøjes med at besøge hjemmesiden, som kunne tilgåes på flere forskellige måder.</br>
+                            Som eksempel kunne nævnes, at man kunne have QR koder rundt omkring i butikken, 
+                            som linkede til denne side, ligesom den kunne være tilgængelig fra byggemarkedets egen side.
+                        </p>
+
+                        <h4>IOS App med Xamarin</h4>
+                        <p>
+                            Ved at lave løsningen som en C# IOS App via Xamarin og Xcode, vil vi ramme kundens ønsker om en App.</br>
+                            Dog ville det være en større udfordring for os, at få til at fungere korrekt, 
+                            da C# undervisningen har været fokuseret på Visual Studios Windows Forms, som kun er tilgængeligt på Windows computere.</br>
+                            Da begge gruppemedlemmer har Mac, ville det derfor være nødvendigt, at finde alternative frameworks, som kunne bidrage til opgavens løsning.</br>
+                            Det er i Visual Studio muligt at benytte sig af Xamarin i sammenhæng med Xcode, for at lave en IOS App i C#.</br>
+                            Der er mange ligheder med Windows Forms modulet, men der er nogle syntaks forskelle, samt forskel i hvilke packages der er tilgængelige til Mac.</br>
+                        </p>
+
+                        <h4>Cocoa App med Xamarin</h4>
+                        <p>
+                            Meget lig en IOS App, er det også muligt at lave løsningen i Visual Studio som en Cocoa App.</br>
+                            Lighederne mellem disse to muligheder er mange, og selve opbygningen af programmet ville være det samme.</br>
+                            Den største forskel på mulighederne er, at IOS App ville være mere i sammenhæng med kundens ønsker.
+                        </p>
+
+                        <h4>Hvad valgte vi?</h4>
+                        <p>
+                            Efter mange overvejelser frem og tilbage om de forskellige muligheder besluttede vi os for at give os ud i en IOS App.</br>
+                            Årsagen til dette valg var at det ville være mest korrekt, for at kundens ønsker kunne opfyldes.</br>
+                            Desuden ville alle mulighederne have deres egne udfordringer, i at få data fra Databasen, til at sammenkoble korrekt med aplikationen.</br>
+                            Som Database valgte vi at lave en MySQL database, da denne er mest i tråd med den viden vi har tillært os 
+                            og derfor ikke ville kræve enorme mængder af ekstra research for at lave.</br>                            
+                            Hjemmesiden blev fravalgt, da dette ikke ville være i tråd med kundens ønsker, 
+                            samt at vi havde svært ved at gennemskue hvorledes vi skulle få den fulde funktionalitet af Databasen til at køre på siden.</br>                            
+                            Deslige var der bekymringer om sikkerheden ved at vælge hjemmeside som redskab.
                         </p>
                     </article>
 
                     <article class="afsnit" id="research">
-                        <h3 class="=afsnit_header">-----Research-----</h3>
+                        <h2 class="=afsnit_header">Research</h2>
                         <p>
-                            
+                            For at lave projektet i den valgte form, var vi nødt til at forsøge at 
+                            skaffe noget mere viden om hvordan Xamarin og Xcode ville skulle håndteres.</br>
+                            Desuden måtte vi forsøge at skaffe viden om integration med MySQL Database, 
+                            da denne ikke er lige så indbygget i Visual Studio til Mac, som det er i Windows versionen.</br>
+                            Der blev også lagt en del fokus i projektperioden på at undersøge de andre løsningsmuligheder, 
+                            hvilket desværre tog en del tid fra projektet.</br>
+                            Der blev blandt andet undersøgt forskellige muligheder for at få JavaScript til at 
+                            hente og skrive data til en Backend, som enten skulle skrives i Python eller i C#.</br>
+                            Vi fandt frem til at brugen af JSON filer, ville muliggøre kommunikationen mellem front og backend.</br>
                         </p>
                     </article>
 
                     <article class="afsnit" id="analyse">
-                        <h3 class="=afsnit_header">-----Analyse-----</h3>
+                        <h2 class="=afsnit_header">Analyse</h2>
                         <p>
                             
                         </p>
                     </article>
 
                     <article class="afsnit" id="konstruktion">
-                        <h3 class="=afsnit_header">-----Konstruktion-----</h3>
+                        <h2 class="=afsnit_header">Konstruktion</h2>
                         <p>
                             
                         </p>
                     </article>
 
                     <article class="afsnit" id="evaluering">
-                        <h3 class="=afsnit_header">-----Evaluering af process-----</h3>
+                        <h2 class="=afsnit_header">Evaluering af process</h2>
                         <p>
                             
                         </p>
                     </article>
 
                     <article class="afsnit" id="konklusion">
-                        <h3 class="=afsnit_header">-----Konklusion-----</h3>
+                        <h2 class="=afsnit_header">Konklusio</h2>
                         <p>
                             
                         </p>
                     </article>
 
                     <article class="afsnit" id="referencer">
-                        <h3 class="=afsnit_header">-----Referencer-----</h3>
+                        <h2 class="=afsnit_header">Referencer</h2>
                         <p>
                             
                         </p>
@@ -110,60 +157,6 @@
                         ønskede varer. Oprindeligt skulle der have været en scan&betal
                         funktion. Men da det ikke er noget vi reelt kan implementere, har 
                         vi valgt at se helt bort fra denne funktion.</p>
-                    
-                    <p id = "problemformulering">
-                        <h1>Problemformulering</h1>
-                        Vi har fået til opgave af EG A/S, at komme med forslag til en 
-                        optimering af en mobil-app. Dette er mest med hovedfokus på, hvordan
-                        man kan få lavet en optimal database, som bl.a. gør at man på en smart
-                        måde, kan finde erstatningsvarer, lagerstatus, og lokationer.<br><br>
-                        Vi har derfor skulle finde en måde hvorpå man nemt kan finde varer i 
-                        diverse varehuse - Dette viste sig også at være den sværeste del af
-                        opgaven.
-                    </p>
-
-                    <p id = "metodeovervejelser">
-                        <h1>Metodeovervejelser</h1>
-                        Vi valgte fra start at hvis tiden var til det, så ville vi lave et udkast
-                        til en reel IOS-app. Dette da det både ville udfordre os på et andet plan,
-                        samtidig med at det giver et meget håndgribeligt resultat.
-                        Derfor valgte vi at bruge Visual Studio + XCode, hvor vi har lavet appen
-                        med C#. <br><br>
-                        Dertil har vi brugt MySQL, da det er dette DBMS, vi i forvejen har kendskab
-                        til. 
-                    </p>
-
-                    <p id = "research">
-                        <h1>Research</h1>
-                        Dette projekt har i det hele taget krævet en masse research, da vi valgte at
-                        kaste os selv ud på dybt vand. Vi havde intet kendskab til at opbygge en IOS-app,
-                        og vi havde heller ikke den store kendskab til hvordan man sammenkobler sit program
-                        med en database. <br>
-                        Vi har derfor skulle lave en masse research. Dette har taget meget tid, som også
-                        viser sig i det endelige produkt, ved at vi ikke er nået nær så tæt på målet, som
-                        vi oprindeligt havde håbet. Dog har vi fået en masse læring ud af dette projekt, som
-                        i sidste ende betød allermest for os, personligt. 
-                    </p>
-
-                    <p id = "analyse">
-                        <h1>Analyse</h1>
-                    </p>
-
-                    <p id = "konstruktion">
-                        <h1>Konstruktion</h1>
-                    </p>
-
-                    <p id = "evaluering">
-                        <h1>Evaluering af proces</h1>
-                    </p>
-
-                    <p id = "konklusion">
-                        <h1>Konklusion</h1>
-                    </p>
-
-                    <p id = "referencer">
-                        <h1>Referencer</h1>
-                    </p>
         </main>
     </body>
 
