@@ -2,7 +2,7 @@ body{
 	height: 100%;
 	width: 100%;
     margin: 0;
-	background-color: rgb(37, 36, 36);
+	background-color: #400300;
 }
 
 header {
@@ -19,7 +19,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgb(37, 36, 36);
+    background-color: #400300;
 
 }
 
@@ -30,7 +30,7 @@ header {
     font-size: 1.5em;
     padding: 1em;
     font-weight: 500;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif, serif;
     text-decoration: none;
     text-align: center;
 }
@@ -49,16 +49,17 @@ header {
     margin: 0;
     margin-top: 0em;
     padding: 0;
-    width: 10%;
+    width: 15%;
     height: 100%;
 
 }
 .sidenav li a{
     display: block;
-    background-color: rgb(37, 36, 36);
+    background-color: #400300;
     border-bottom: 1px solid rgb(226, 226, 218);
     color: white;
     padding: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif, serif;
     text-decoration: none;
     text-align: center;
 }
@@ -74,13 +75,13 @@ header {
 .container{
     display: flex;
     justify-content: center;
-    width: 80%;
+    width: 70%;
     height: 100%;
     margin-top: 4em;
-    margin-left: 10%;
+    margin-left: 15%;
 
-    background-color: rgb(226, 226, 218);
-    font-family:'', Merriweather, sans-serif;
+    background-color: #fff8e5;
+    font-family: Georgia, 'Times New Roman', Times, serif, serif;
 }
 #maincontent{
     width: 60%;
