@@ -60,7 +60,7 @@
                             Af mulige løsninger overvejede følgende:
                         </p>
                         
-                        <h4>Hjemmeside med backend</h4>
+                        <h4 class="afsnit_subheader">Hjemmeside med backend</h4>
                         <p>
                             Hvis løsningen laves i html, med Javascript og enten Python eller C# backend, ville det have været imod kundens ønsker, da der specifikt blev ønsket en App.</br>
                             Dog ville der have været kundeorienterede fordele i denne fremgangsmåde, da kunden ikke ville have behov for at skulle downloade endnu en app, 
@@ -69,7 +69,7 @@
                             som linkede til denne side, ligesom den kunne være tilgængelig fra byggemarkedets egen side.
                         </p>
 
-                        <h4>IOS App med Xamarin</h4>
+                        <h4 class="afsnit_subheader">IOS App med Xamarin</h4>
                         <p>
                             Ved at lave løsningen som en C# IOS App via Xamarin og Xcode, vil vi ramme kundens ønsker om en App.</br>
                             Dog ville det være en større udfordring for os, at få til at fungere korrekt, 
@@ -79,14 +79,14 @@
                             Der er mange ligheder med Windows Forms modulet, men der er nogle syntaks forskelle, samt forskel i hvilke packages der er tilgængelige til Mac.</br>
                         </p>
 
-                        <h4>Cocoa App med Xamarin</h4>
+                        <h4 class="afsnit_subheader">Cocoa App med Xamarin</h4>
                         <p>
                             Meget lig en IOS App, er det også muligt at lave løsningen i Visual Studio som en Cocoa App.</br>
                             Lighederne mellem disse to muligheder er mange, og selve opbygningen af programmet ville være det samme.</br>
                             Den største forskel på mulighederne er, at IOS App ville være mere i sammenhæng med kundens ønsker.
                         </p>
 
-                        <h4>Hvad valgte vi?</h4>
+                        <h4 class="afsnit_subheader">Hvad valgte vi?</h4>
                         <p>
                             Efter mange overvejelser frem og tilbage om de forskellige muligheder besluttede vi os for at give os ud i en IOS App.</br>
                             Årsagen til dette valg var at det ville være mest korrekt, for at kundens ønsker kunne opfyldes.</br>
@@ -124,7 +124,21 @@
                     <article class="afsnit" id="konstruktion">
                         <h2 class="=afsnit_header">Konstruktion</h2>
                         <p>
+                            <h4 class="afsnit_subheader">Databasen</h4>
+                            Databasen er bygget i MySQL via MySQL Workbench.</br>
+                            Vi har lagt vægt på at relationerne imellem vores tables, gav mening 
+                            og forsøgt at skabe en sammenhængene database, som skal danne grundlaget for kundens ønskede funktioner.</br>
+                            I forhold til kundens ønske om en ”find-vej” funktion, 
+                            har vi valgt at dette skal ske ud fra at bruge hyldenumre som lokationsdata.</br>
+                            Herefter vil der kunne bruges enten et færdiglavet kort, som vha. geolokation, 
+                            vil kunne lede kunden hen til den korrekte hylde.</br>
+                            Det er også muligt, om end det er uden for scopet af denne opgave at benytte sig af en ”færdig” løsning som 
+                            ex. prisskilte, med indbygget lokationsdata, som kan give kunden en mere præcis navigering.</br>
+                            Denne mulighed vil også gøre det nemt for personale at skifte en vares placering, da lokationsdataen følger med prisskiltet.</br>
+                            Vi har ikke valgt at inddele hylderne i specifikke lokationer. Dette er af den årsag, at nogle varer ikke fylder det samme, 
+                            og at det skal være nemt og tilgængeligt for personalet i byggemarkedet, at ændre, tilføje eller fjerne produkter fra hylderne.</br>
                             
+                            <h4 class="afsnit_subheader">Appen</h4>
                         </p>
                     </article>
 
