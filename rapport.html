@@ -177,15 +177,20 @@
                             og at det skal være nemt og tilgængeligt for personalet i byggemarkedet, at ændre, tilføje eller fjerne produkter fra hylderne.</br>
                             
                             <h3 class="afsnit_subheader">Appen</h3>
-                            IOS Appen er opbygget som en tabbed app, hvor vi desværre ikke nåede at få nok implementering til at dette var relevant.
-                            GUI er lavet i XCode, hvor backend delen er lavet i Visual Studio. Ved opstart kommer man ind i FirstViewController, som kun rummer en funktion,
-                            dette er når man har klikket på "søg" knappen. Her tager FirstViewController teksten fra tekstfeltet og bruger det i Connect filen, som er
-                            forbindelsen til databasen. I Connect filen er der 4 funktioner, en som leder i databasen efter det givne søgeord, og 3 forskellige get funktioner.
+                            IOS Appen er opbygget som en tabbed app. Dette er dog ikke udnyttet, da vi ikke har nået at implementere den fulde funktionalitet.
+                            GUI er lavet i XCode, og backend er lavet i Visual Studio.</br>
+                            </br> 
+                            Ved opstart kommer man ind i FirstViewController, som kun rummer en funktion,
+                            dette er "søg" knappen.</br>
+                            Her tager FirstViewController teksten fra tekstfeltet og bruger det i Connect filen, som er forbindelsen til databasen.</br> 
+                            I Connect filen er der 4 funktioner, en som leder i databasen efter det givne søgeord, og 3 forskellige get funktioner.</br>
                             </br>
-                            Når man har søgt, kommer man ind på SecondViewController, som rummer et UIImageView, labels og en stepper. Den eneste brugbare funktion i SecondViewController
-                            er StepperPressed, som sender increment eller decrement til det ovenstående label. Så man f.eks. kan vælge et lægge 3 stk i kurven på én gang.
-                            Planen var at indføre en kunde class og en kurv class, men dette nåede vi desværre ikke at få gjort.
-
+                            Når man har søgt, kommer man ind på SecondViewController, som rummer et UIImageView, labels og en stepper.</br>
+                            Den eneste brugbare funktion i SecondViewController er StepperPressed, 
+                            som sender increment eller decrement til det ovenstående label så man f.eks. kan vælge et lægge 3 stk i kurven på én gang.</br>
+                            </br>
+                            Planen var at indføre en kunde class og en kurv class, men dette nåede vi desværre ikke at få gjort.</br>
+                            
     
                         </p>
                     </article>
