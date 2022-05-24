@@ -58,9 +58,11 @@
                         <h2 class="afsnit_header">Indledning</h2>
                         <p>
                             Denne rapport vil omhandle vores Eksamensprojekt i Maj 2022.
-                            Vi har fokuseret på at få oprettet en funktionel database,
+                            Vi har fokuseret på oprettelse en funktionel database,
                             som sammenkobles med en mobil-app, hvor kunder kan søge efter
-                            ønskede varer. Oprindeligt skulle der have været en scan&betal
+                            ønskede varer.</br>
+                            </br>
+                            Oprindeligt skulle der have været en scan&betal
                             funktion. Men da det ikke er noget vi reelt kan implementere, har 
                             vi valgt at se helt bort fra denne funktion.
                         </p>
@@ -70,11 +72,10 @@
                         <h2 class="afsnit_header">Problemformulering</h2>
                         <p>
                             Vi har fået til opgave af EG A/S, at komme med forslag til en 
-                            optimering af en mobil-app. </br>
-                            Dette er mest med hovedfokus på, hvordan
-                            man kan få lavet en optimal database, som bl.a. gør at man på en smart
-                            måde, kan finde erstatningsvarer, lagerstatus, og lokationer.
-                        </br></br>
+                            optimering af en mobil-app.</br>
+                            Dette er med hovedfokus på, hvordan
+                            man kan få lavet en optimal database, som bl.a. det muligt for kunder nemt at finde erstatningsvarer, lagerstatus, og lokationer.</br>
+                            </br>
                             Vi har derfor skulle finde en måde hvorpå man nemt kan finde varer i 
                             diverse varehuse - Dette viste sig også at være den sværeste del af
                             opgaven.
@@ -92,15 +93,16 @@
                         <p>
                             Hvis løsningen laves i html, med Javascript og enten Python eller C# backend, ville det have været imod kundens ønsker, da der specifikt blev ønsket en App.</br>
                             </br>
-                            Dog ville der have været kundeorienterede fordele i denne fremgangsmåde, da kunden ikke ville have behov for at skulle downloade endnu en app, 
-                            men i stedet kunne nøjes med at besøge hjemmesiden, som kunne tilgåes på flere forskellige måder.</br>
+                            Ved denne fremgangsmåde, ville det ikke være nødvendigt for kunderne, at skulle downloade en app, 
+                            men ville istedet kunne tilgå siden på en række af forskellige måer.</br>
+                            </br>
                             Som eksempel kunne nævnes, at man kunne have QR koder rundt omkring i butikken, 
                             som linkede til denne side, ligesom den kunne være tilgængelig fra byggemarkedets egen side.
                         </p>
 
                         <h3 class="afsnit_subheader">IOS App med Xamarin</h3>
                         <p>
-                            Ved at lave løsningen som en C# IOS App via Xamarin og Xcode, vil vi ramme kundens ønsker om en App.</br>
+                            Ved at lave løsningen som en C# IOS App via Xamarin og Xcode, vil vi ramme kundens ønske om en App.</br>
                             </br>
                             Dog ville det være en større udfordring for os, at få til at fungere korrekt, 
                             da C# undervisningen har været fokuseret på Visual Studios Windows Forms, som kun er tilgængeligt på Windows computere.</br>
@@ -114,19 +116,7 @@
                         <p>
                             Meget lig en IOS App, er det også muligt at lave løsningen i Visual Studio som en Cocoa App.</br>
                             Lighederne mellem disse to muligheder er mange, og selve opbygningen af programmet ville være det samme.</br>
-                            Den største forskel på mulighederne er, at IOS App ville være mere i sammenhæng med kundens ønsker.
-                        </p>
-
-                        <h3 class="afsnit_subheader">Hvad valgte vi?</h3>
-                        <p>
-                            Efter mange overvejelser frem og tilbage om de forskellige muligheder besluttede vi os for at give os ud i en IOS App.</br>
-                            Årsagen til dette valg var at det ville være mest korrekt, for at kundens ønsker kunne opfyldes.</br>
-                            Desuden ville alle mulighederne have deres egne udfordringer, i at få data fra Databasen, til at sammenkoble korrekt med aplikationen.</br>
-                            Som Database valgte vi at lave en MySQL database, da denne er mest i tråd med den viden vi har tillært os 
-                            og derfor ikke ville kræve enorme mængder af ekstra research for at lave.</br>                            
-                            Hjemmesiden blev fravalgt, da dette ikke ville være i tråd med kundens ønsker, 
-                            samt at vi havde svært ved at gennemskue hvorledes vi skulle få den fulde funktionalitet af Databasen til at køre på siden.</br>                            
-                            Deslige var der bekymringer om sikkerheden ved at vælge hjemmeside som redskab.
+                            Den største forskel på mulighederne er, at IOS App ville være mere i sammenhæng med kundens ønske.
                         </p>
                     </article>
 
@@ -137,10 +127,12 @@
                             skaffe noget mere viden om hvordan Xamarin og Xcode ville skulle håndteres.</br>
                             Desuden måtte vi forsøge at skaffe viden om integration med MySQL Database, 
                             da denne ikke er lige så indbygget i Visual Studio til Mac, som det er i Windows versionen.</br>
+                            </br>
                             Der blev også lagt en del fokus i projektperioden på at undersøge de andre løsningsmuligheder, 
                             hvilket desværre tog en del tid fra projektet.</br>
                             Der blev blandt andet undersøgt forskellige muligheder for at få JavaScript til at 
                             hente og skrive data til en Backend, som enten skulle skrives i Python eller i C#.</br>
+                            </br>
                             Vi fandt frem til at brugen af JSON filer, ville muliggøre kommunikationen mellem front og backend.</br>
                         </p>
                     </article>
@@ -148,7 +140,19 @@
                     <article class="afsnit" id="analyse">
                         <h2 class="afsnit_header">Analyse</h2>
                         <p>
-                            
+                            Grundet udvalget af fremgangsmåder, var det nødvendigt at foretage en analyse af fordele og ulemper ved de forskellige muligheder.</br>
+                            Hvis opgaven blev udført som en hjemmeside, ville dette ikke være i tråd med kundens ønske.</br>
+                            Ligeledes ville der ved denne fremgangsmåde, være større potientielle sikkerhedsbekymringer, som skulle håndteres.</br>
+                            </br>
+                            Havde vi lavet opgaven som en Cocoa App, ville det ikke have opfyldt kundens ønske om en mobil app.</br>
+                            Samtidigt, ville det fra et teknisk perspektiv, ikke være den store forskel i opbygningen ved denne fremgangsmåde, frem for en reel IOS App.</br>
+                            Med dette grundlag, blev denne fremgangsmåde også fravalgt.</br>
+                            </br>
+                            Endeligt stod vi tilbage med en IOS app.</br>
+                            Ved at benytte denne fremgangsmåde, opfylder vi kriteriet om en mobil app. Da dette samtidigt gav mest mening ud fra undervisningen, var dette den valgte fremgangsmåde.</br>
+                            </br>
+                            Databasen blev lavet i MySQL, da dette er det system vi begge har mest erfaring i, og samtidigt er godt understøttet i det valgte framework.</br>
+                            Databasen blev lavet igennem MySQL Workbench, hvor også det relationelle diagram, kan udledes direkte.</br>
                         </p>
                     </article>
 
@@ -159,13 +163,16 @@
                             Databasen er bygget i MySQL via MySQL Workbench.</br>
                             Vi har lagt vægt på at relationerne imellem vores tables, gav mening 
                             og forsøgt at skabe en sammenhængene database, som skal danne grundlaget for kundens ønskede funktioner.</br>
+                            </br>
                             I forhold til kundens ønske om en ”find-vej” funktion, 
                             har vi valgt at dette skal ske ud fra at bruge hyldenumre som lokationsdata.</br>
                             Herefter vil der kunne bruges enten et færdiglavet kort, som vha. geolokation, 
                             vil kunne lede kunden hen til den korrekte hylde.</br>
+                            </br>
                             Det er også muligt, om end det er uden for scopet af denne opgave at benytte sig af en ”færdig” løsning som 
                             ex. prisskilte, med indbygget lokationsdata, som kan give kunden en mere præcis navigering.</br>
                             Denne mulighed vil også gøre det nemt for personale at skifte en vares placering, da lokationsdataen følger med prisskiltet.</br>
+                            </br>
                             Vi har ikke valgt at inddele hylderne i specifikke lokationer. Dette er af den årsag, at nogle varer ikke fylder det samme, 
                             og at det skal være nemt og tilgængeligt for personalet i byggemarkedet, at ændre, tilføje eller fjerne produkter fra hylderne.</br>
                             
@@ -178,7 +185,8 @@
                         <p>
                             Der er flere punkter hvorpå vi som gruppe, kunne have sikret os bedre forhold til at kunne levere produktet i en højere kvalitet.</br>
                             Først og fremmest, blev meget tid brugt på at undersøge hvilken fremgangsmåde vi skulle bruge til produktion, samt undersøge i detaljer, 
-                            de forskellige programmeringssprogs styrker og svagheder i denne sammenhæng.</br>                            
+                            de forskellige programmeringssprogs styrker og svagheder i denne sammenhæng.</br>
+                            </br>                        
                             Havde vi fra start været mere faste i vores tilgang, havde vi sparet en masse tid, som kunne have været brugt til udvikling.</br>                            
                             Vores første del af projektet, gik dog godt, da vi startede med at få planlagt, og få programmeret databasen, så den opfyldte vores krav.</br>                            
                             Dog blev der allerede fra anden uge, betydeligt nedsat arbejdstid fra det ene projektmedlem, da denne stod midt i en flytning.</br>                           
@@ -186,7 +194,8 @@
                             </br>                            
                             Midt i projektperioden, blev vi mødt af en uforudset problemstilling, da vi ikke kunne få programmet til at virke som vi gerne ville have det.</br>
                             Dette medførte at vi igen begyndte at genoverveje vores valg af fremgangsmåde, og igen måtte undersøge alternativer.</br>                            
-                            Dette blev en tidsrøver, især da vi valgte at fortsætte med den først valgte fremgangsmåde.</br>                            
+                            Dette blev en tidsrøver, især da vi valgte at fortsætte med den først valgte fremgangsmåde.</br>
+                            </br>                          
                             En anden gang vil det derfor være en fordel, at vi holder os til den fremgangsmåde vi har valgt, på trods af udfordringer.</br>                               
                         </p>
                     </article>
@@ -201,7 +210,20 @@
                     <article class="afsnit" id="referencer">
                         <h2 class="afsnit_header">Referencer</h2>
                         <p>
-                            
+                            <ul class = "referencer">
+                                <li>
+                                    <a href="https://www.stackoverflow.com/">Stack Overflow</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.w3schools.com/html/default.asp">W3 Schools - HTML</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.w3schools.com/css/default.asp">W3 Schools - CSS</a>
+                                </li>
+                                <li>
+                                    <a href="https://docs.microsoft.com/en-us/dotnet/csharp/">Microsoft Dokumentation for C#</a>
+                                </li>
+                            </ul>
                         </p>
                 </section>
             </article>
