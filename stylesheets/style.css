@@ -82,6 +82,17 @@ header {
     padding-left: 5%;
 }
 
+.appside{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    height: 200px;
+}
+
+.appside:hover{
+    height:100%;
+}
+
 .referencer{
     display: block;
     list-style: disc;
