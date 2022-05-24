@@ -8,7 +8,7 @@
     </head>
     <body>
         <header>
-            <h1 class="page_header">Eksamensprojekt Juni 2022 - Elisabeth & Flemming </h1>
+            <h1 class="page_header">Eksamensprojekt Maj 2022 - Elisabeth & Flemming </h1>
         </header>
         <main>
             <ul class = "sidenav">
@@ -57,14 +57,14 @@
                     <article class="afsnit" id="indledning">
                         <h2 class="afsnit_header">Indledning</h2>
                         <p>
-                            Denne rapport omhandler vores Eksamensprojekt i Maj 2022.
-                            Vi har fokuseret på oprettelse af en funktionel database,
-                            som sammenkobles med en mobil-app, hvor kunder kan søge efter
+                            Denne rapport omhandler vores Eksamensprojekt i Maj 2022.</br>
+                            Vi har fokuseret på oprettelse af en funktionel database
+                            som sammenkobles med en mobil-app. Herved kan kunder søge efter
                             ønskede varer.</br>
                             </br>
-                            Oprindeligt skulle der have været en scan&betal
-                            funktion. Men da det ikke er noget vi reelt kan implementere, har 
-                            vi valgt at se helt bort fra denne funktion.
+                            Oprindeligt var ønsket at inkludere en scan&betal
+                            funktion, men da det ikke er noget vi reelt kan implementere, har 
+                            vi valgt at se bort fra denne funktion.
                         </p>
                     </article>
                     
@@ -74,24 +74,24 @@
                             Vi har fået til opgave af EG A/S, at komme med forslag til en 
                             optimering af en mobil-app.</br>
                             Dette er med hovedfokus på, hvordan
-                            man kan få lavet en optimal database, som bl.a. gør det muligt for kunder nemt at finde erstatningsvarer, lagerstatus, og lokationer.</br>
+                            man kan få lavet en optimal database, som bla. gør det muligt for kunder at finde erstatningsvarer, lagerstatus, og lokationer.</br>
                             </br>
                             Vi har derfor skulle finde en måde hvorpå man nemt kan finde varer i 
-                            diverse varehuse - Dette viste sig også at være den sværeste del af
-                            opgaven.
+                            diverse varehuse.
                         </p>
                     </article>
 
                     <article class="afsnit" id="metode">
                         <h2 class="afsnit_header">Metodeovervejelser</h2>
                         <p>
-                            Vi overvejede fra start af projektet, flere forskellige tekniske tilgange til problemstillingen.
+                            Vi overvejede fra start af projektet flere forskellige tekniske tilgange til problemstillingen.</br>
                             Af mulige løsninger overvejede følgende:
                         </p>
                         
                         <h3 class="afsnit_subheader">Hjemmeside med backend</h3>
                         <p>
-                            Hvis løsningen laves i html, med Javascript og enten Python eller C# backend, ville det have været imod kundens ønsker, da der specifikt blev ønsket en App.</br>
+                            Hvis løsningen laves i html, med Javascript og enten Python eller C# backend, 
+                            ville det have været imod kundens ønsker, da der specifikt blev ønsket en App.</br>
                             </br>
                             Ved denne fremgangsmåde, ville det ikke være nødvendigt for kunderne, at skulle downloade en app, 
                             men ville istedet kunne tilgå siden på en række af forskellige måer.</br>
@@ -105,17 +105,19 @@
                             Ved at lave løsningen som en C# IOS App via Xamarin og Xcode, vil vi ramme kundens ønske om en App.</br>
                             </br>
                             Dog ville det være en større udfordring for os, at få til at fungere korrekt, 
-                            da C# undervisningen har været fokuseret på Visual Studios Windows Forms, som kun er tilgængeligt på Windows computere.</br>
-                            Da begge gruppemedlemmer har Mac, ville det derfor være nødvendigt, at finde alternative frameworks, som kunne bidrage til opgavens løsning.</br>
+                            da C# undervisningen har været fokuseret på Visual Studios frameworket, Windows Forms, som kun er tilgængeligt på Windows computere.</br>
+                            Da begge gruppemedlemmer har Mac, ville det derfor være nødvendigt at finde alternative frameworks, 
+                            som kunne bidrage til opgavens løsning.</br>
                             </br>
                             Det er i Visual Studio muligt at benytte sig af Xamarin i sammenhæng med Xcode, for at lave en IOS App i C#.</br>
-                            Der er mange ligheder med Windows Forms modulet, men der er nogle syntaks forskelle, samt forskel i hvilke packages der er tilgængelige til Mac.</br>
+                            Der er mange ligheder med Windows Forms modulet, men der er nogle syntaks forskelle, 
+                            samt forskel i hvilke packages der er tilgængelige til Mac.</br>
                         </p>
 
                         <h3 class="afsnit_subheader">Cocoa App med Xamarin</h3>
                         <p>
                             Meget lig en IOS App, er det også muligt at lave løsningen i Visual Studio som en Cocoa App.</br>
-                            Lighederne mellem disse to muligheder er mange, og selve opbygningen af programmet ville være det samme.</br>
+                            Lighederne mellem disse to tilgange er mange og selve opbygningen af programmet ville være det samme.</br>
                             Den største forskel på mulighederne er, at IOS App ville være mere i sammenhæng med kundens ønske.
                         </p>
                     </article>
@@ -123,9 +125,9 @@
                     <article class="afsnit" id="research">
                         <h2 class="afsnit_header">Research</h2>
                         <p>
-                            For at lave projektet i den valgte form, var vi nødt til at forsøge at 
+                            For at lave projektet i den valgte form, var vi nødt til at 
                             skaffe noget mere viden om hvordan Xamarin og Xcode ville skulle håndteres.</br>
-                            Desuden måtte vi forsøge at skaffe viden om integration med MySQL Database, 
+                            Desuden måtte vi skaffe viden om integration med MySQL Database, 
                             da denne ikke er lige så indbygget i Visual Studio til Mac, som det er i Windows versionen.</br>
                             </br>
                             Der blev også lagt en del fokus i projektperioden på at undersøge de andre løsningsmuligheder, 
@@ -174,22 +176,21 @@
                             Denne mulighed vil også gøre det nemt for personale at skifte en vares placering, da lokationsdataen følger med prisskiltet.</br>
                             </br>
                             Vi har ikke valgt at inddele hylderne i specifikke lokationer. Dette er af den årsag, at nogle varer ikke fylder det samme, 
-                            og at det skal være nemt og tilgængeligt for personalet i byggemarkedet, at ændre, tilføje eller fjerne produkter fra hylderne.</br>
+                            og at det skal være nemt og tilgængeligt for personalet i byggemarkedet at ændre, tilføje eller fjerne produkter fra hylderne.</br>
                             
                             <h3 class="afsnit_subheader">Appen</h3>
-                            IOS Appen er opbygget som en tabbed app. Dette er dog ikke udnyttet, da vi ikke har nået at implementere den fulde funktionalitet.
+                            IOS Appen er opbygget som en tabbed app. Dette er dog ikke fuldt udnyttet, da den fulde funktionalitet der var ønsket, ikke nåede at blive implementeret.</br>
                             GUI er lavet i XCode, og backend er lavet i Visual Studio.</br>
                             </br> 
-                            Ved opstart kommer man ind i FirstViewController, som kun rummer en funktion,
-                            dette er "søg" knappen.</br>
-                            Her tager FirstViewController teksten fra tekstfeltet og bruger det i Connect filen, som er forbindelsen til databasen.</br> 
-                            I Connect filen er der 4 funktioner, en som leder i databasen efter det givne søgeord, og 3 forskellige get funktioner.</br>
+                            Ved opstart af applikationen mødes man først af FirstViewController, der understøtter søgefunktionen,</br>
+                            Her tager FirstViewController input fra tekstfeltet og bruger det i Connect filen, som skaber forbindelse til databasen.</br> 
+                            I Connect filen er der 4 funktioner. Den ene søger i databasen efter det indtastede søgeord, og 3 forskellige get funktioner.</br>
                             </br>
                             Når man har søgt, kommer man ind på SecondViewController, som rummer et UIImageView, labels og en stepper.</br>
                             Den eneste brugbare funktion i SecondViewController er StepperPressed, 
                             som sender increment eller decrement til det ovenstående label så man f.eks. kan vælge et lægge 3 stk i kurven på én gang.</br>
                             </br>
-                            Planen var at indføre en kunde class og en kurv class, men dette nåede vi desværre ikke at få gjort.</br>
+                            Planen var at indføre en kunde class og en kurv class, men dette blev ikke opnået inden deadline.</br>
                             
     
                         </p>
