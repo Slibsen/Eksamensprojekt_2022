@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{A26E463D-31EC-4852-9C6A-9843EF02CCB2}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Eksamensprojektapp/FirstViewController.cs">
+    <Files>
+      <File FileName="Eksamensprojektapp/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="Eksamensprojektapp/Basket.cs" Line="1" Column="1" />
+      <File FileName="Eksamensprojektapp/Customer.cs" Line="1" Column="1" />
+      <File FileName="Eksamensprojektapp/Connect.cs" Line="34" Column="14" />
+      <File FileName="Eksamensprojektapp/FirstViewController.cs" Line="11" Column="1" />
+      <File FileName="Eksamensprojektapp/Main.cs" Line="18" Column="1" />
+      <File FileName="Eksamensprojektapp/SecondViewController.cs" Line="1" Column="1" />
+      <File FileName="Eksamensprojektapp/Entitlements.plist" />
+      <File FileName="Eksamensprojektapp/FirstViewController.designer.cs" Line="22" Column="43" />
+      <File FileName="Eksamensprojektapp/SceneDelegate.cs" Line="1" Column="1" />
+      <File FileName="Eksamensprojektapp/SecondViewController.designer.cs" Line="16" Column="21" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Eksamensprojektapp" expanded="True">
+            <Node name="Eksamensprojektapp" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Packages" expanded="True">
+                <Node name="Xamarin.Essentials" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True" />
+              <Node name="FirstViewController.cs" expanded="True" />
+              <Node name="SecondViewController.cs" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Eksamensprojektapp PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F5C29E4C-0D34-4C50-973B-463C6C70F6FE" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E0E3C2E0-D769-4AF7-90E1-981BC6CF923D" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
